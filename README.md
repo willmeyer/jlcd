@@ -1,14 +1,23 @@
-# jlcd
+# jLCD
 
-An interface library for controlling LCD displays from Java.
+A Java interface for controlling simple LCD displays.
 
-## Supported LCD Devices
+This library makes it easier to communicate with simple LCD text displays like [this one](http://www.sparkfun.com/products/9394).
 
-- SparkFun SerLCD v. 2.5
+### Supported LCD Devices
 
-## Setup
+- This library currently supports devices controlled via the [SparkFun SerLCD v. 2.5](http://www.sparkfun.com/products/258) RS-232 control board
 
-- A connected virtual serial port (likely via USB FTDI chip)
+## Requirements and Setup
+
+To get going, you'll need:
+
+- A connected virtual serial port (likely via a USB FTDI chip)
 - A SparkFun SerLCD controller and LCD display
-- requires com.willmeyer.jrs232, with its attendant install requirements
- 
+- the [jRS232 package](http://www.github.com/willmeyer/jrs232) and its `com.willmeyer.jrs232`, with its install requirements
+
+## Using the Library
+
+See `com.willmeyer.jlcd.SparkFunLcd`.
+
+For more information on the command-set, see this [datasheet](https://github.com/willmeyer/jlcd/blob/master/docs/SerLCD_V2_5.pdf).
