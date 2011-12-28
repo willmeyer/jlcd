@@ -14,7 +14,7 @@ To get going, you'll need:
 
 - A connected virtual serial port (likely via a USB FTDI chip)
 - A SparkFun SerLCD controller and LCD display
-- the [jRS232 package](http://www.github.com/willmeyer/jrs232) and its `com.willmeyer.jrs232`, with its install requirements
+- The [jRS232 package](http://www.github.com/willmeyer/jrs232) and its `com.willmeyer.jrs232`, with its install requirements
 
 ## Using the Library
 
